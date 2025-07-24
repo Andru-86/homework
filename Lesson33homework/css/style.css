@@ -1,0 +1,30 @@
+.os {
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.l1 {
+    text-decoration: line-through;
+}
+
+.l2 {
+    text-align: center;
+    text-transform: uppercase;
+    text-indent: 40px;
+    /* Я не уверен в том, что на макете присутстсвует отступ, но мне кажется он всё таки там есть, поэтому пусть будет */
+}
+
+.l3 {
+    color: rgb(96, 31, 156);
+    word-spacing: 30px;
+    text-shadow: 1px 1px 2px #52225e;
+    text-decoration: overline wavy;
+}
+
+.l4 {
+    letter-spacing: 5px;
+    text-decoration: underline double;
+}
