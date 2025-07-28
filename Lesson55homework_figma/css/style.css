@@ -25,12 +25,17 @@ body {
     align-items: center;
 }
 
+.header-inner img {
+    margin-right: 50px;
+}
+
 .header-nav {
     margin-left: auto;
 }
 
 .header-list {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .header-item {
@@ -51,6 +56,7 @@ body {
 .hero {
     background: url(../img/hero-bg.jpg) 10% 50% / cover no-repeat;
     padding: 120px 0;
+    margin: auto;
 }
 
 .hero-title {
