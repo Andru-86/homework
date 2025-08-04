@@ -1,0 +1,44 @@
+body {
+    background: linear-gradient(to right, rgb(226, 138, 138), rgb(132, 132, 240), rgb(179, 253, 179));
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.container {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 15px;
+}
+
+.homework-list__block {
+    margin: 0 auto 50px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 6px;
+    background: #5e7afa;
+    color: #fff;
+    padding: 15px;
+    width: 300px;
+    border-radius: 20px;
+    border: rgb(252, 245, 232) solid;
+}
+
+.homework-list__ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.homework-list__item {
+    padding: 15px;
+    background: #789af8;
+    color: #fff;
+    border-radius: 20px;
+    border: solid #fff;
+    transition-duration: 1s;
+}
+
+.homework-list__item:hover {
+    background: #072f9c;
+    color: #f8c4c4;
+    text-decoration: underline;
+}
